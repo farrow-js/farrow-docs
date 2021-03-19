@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{73:function(o){o.exports=JSON.parse('{"allTagsPath":"/farrow-docs/build/blog/tags","slug":"hola","name":"hola","count":1,"permalink":"/farrow-docs/build/blog/tags/hola"}')}}]);
