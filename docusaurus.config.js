@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Farrow 文档',
+  title: 'Farrow',
   tagline: '类型安全的渐近式 TypeScript 全栈框架',
   url: 'https://github.com/Lucifier129/farrow-docs',
   baseUrl: '/farrow-docs/build/',
@@ -23,12 +23,12 @@ module.exports = {
           label: '文档',
           position: 'left',
         },
-        {to: 'blog', label: '博客', position: 'left'},
-        {
-          href: 'https://github.com/Lucifier129/farrow',
-          label: 'GitHub',
-          position: 'right',
-        },
+        // {to: 'blog', label: '博客', position: 'left'},
+        // {
+        //   href: 'https://github.com/Lucifier129/farrow',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
@@ -77,13 +77,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/Lucifier129/farrow-docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/Lucifier129/farrow-docs/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

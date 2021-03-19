@@ -2,14 +2,11 @@ module.exports = {
   docs: [
     {
       type: 'category',
-      label: 'Docusaurus Tutorial',
+      label: 'Farrow 教程',
       items: [
-        'getting-started',
-        'create-a-page',
-        'create-a-document',
-        'create-a-blog-post',
-        'markdown-features',
-        'thank-you',
+        '介绍',
+        '安装与创建项目',
+        '解读greet接口'
       ],
     },
   ],
