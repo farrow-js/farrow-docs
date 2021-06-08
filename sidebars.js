@@ -6,7 +6,9 @@ module.exports = {
       items: [
         '介绍',
         '安装与创建项目',
-        '解读greet接口'
+        '服务端开发',
+        '前端开发',
+        '开发-todo-service'
       ],
     },
   ],
