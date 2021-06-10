@@ -3,7 +3,7 @@ module.exports = {
   title: 'Farrow',
   tagline: '类型安全的渐近式 TypeScript 全栈框架',
   url: 'https://github.com/Lucifier129/farrow-docs',
-  baseUrl: '/farrow-docs/build/',
+  baseUrl: '/farrow-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -19,16 +19,29 @@ module.exports = {
       items: [
         {
           to: 'docs/',
-          activeBasePath: 'docs',
           label: '文档',
           position: 'left',
         },
-        // {to: 'blog', label: '博客', position: 'left'},
-        // {
-        //   href: 'https://github.com/Lucifier129/farrow',
-        //   label: 'GitHub',
-        //   position: 'right',
-        // },
+        {
+          to: 'docs/api/',
+          label: 'API',
+          position: 'left'
+        },
+        {
+          to: '/blog',
+          label: '日志',
+          position: 'left'
+        },
+        {
+          to: 'docs/case/',
+          label: '案例',
+          position: 'left'
+        },
+        {
+          href: 'https://github.com/Lucifier129/farrow',
+          label: 'GitHub',
+          position: 'right',
+        },
       ],
     },
     footer: {
@@ -66,7 +79,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Farrow team, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Farrow team. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -74,12 +87,14 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          path: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
             'https://github.com/Lucifier129/farrow-docs/',
         },
         blog: {
+          path: 'blog',
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
