@@ -4,8 +4,14 @@
         <title>Farrow Blog</title>
         <link>https://github.com/Lucifier129/farrow-docs/blog</link>
         <description>Farrow Blog</description>
-        <lastBuildDate>Sun, 25 Oct 2015 23:29:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 15 Jun 2021 07:35:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[总揽]]></title>
+            <link>https://github.com/Lucifier129/farrow-docs/farrow-docs/blog/introduction</link>
+            <guid>总揽</guid>
+            <pubDate>Tue, 15 Jun 2021 07:35:31 GMT</pubDate>
+        </item>
     </channel>
 </rss>

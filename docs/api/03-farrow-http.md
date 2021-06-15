@@ -102,7 +102,7 @@ type HttpsPipeline = RouterPipeline & {
 }
 ```
 
-- tls <[HttpsOptions](https://github.com/Lucifier129/farrow/blob/6c0208e0f9e3e3015042caf4f001717750800602/packages/farrow-http/src/https.ts#L22)>
+- tls [HttpsOptions](https://github.com/farrow-js/farrow/blob/6c0208e0f9e3e3015042caf4f001717750800602/packages/farrow-http/src/https.ts#L22)
   Intersection between options from [tls.createServer()](https://nodejs.org/dist/latest-v15.x/docs/api/tls.html#tls_tls_createserver_options_secureconnectionlistener) and [tls.createSecureContext()](https://nodejs.org/dist/latest-v15.x/docs/api/tls.html#tls_tls_createsecurecontext_options) in [Node.js](https://nodejs.org/)
 
 > Notes: Server created by http is different from created by https.
