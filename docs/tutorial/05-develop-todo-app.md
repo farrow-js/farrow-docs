@@ -449,4 +449,4 @@ const handleAdd = async () => {
 - 在服务端，使用 `Tagged Unions` 编码接口的 `input/output`
 - 在客户端，使用 `result.type` 区分不同的 `case` 消费数据。
 
-以上，我们完成了一个简单的 `Todo App`。
+以上，我们完成了一个简单的 `Todo App`。完成代码，可访问仓库 [farrow-js/farrow-vite-todo-app](https://github.com/farrow-js/farrow-vite-todo-app)
