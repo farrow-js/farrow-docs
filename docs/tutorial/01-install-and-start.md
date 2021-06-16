@@ -2,36 +2,36 @@
 title: Install and Creating project
 ---
 
-## Environment config
+## Required Environment
 
-`Farrow` 使用了当前最新的 `TypeScript` 和 `Node.js` 特性，在开始之前，请确保我们安装了正确的版本
+Farrow uses the latest TypeScript and Node.js features, so make sure we have the correct version installed before we start!
 
-- `Node.js v14.0.0` 以上（通过 `node -v` 检查当前版本）
-- `TypeScript v4.3.0` 以上（如非在现有项目中引入 farrow，可随脚手架一起安装）
+- `Node.js v14.0.0` or higher (check current version via `node -v`)
+- `TypeScript v4.3.0` or higher（Can be installed with scaffolding if farrow is not introduced in an existing project）
 
 ## Creating project
 
-我们通过 `create-farrow-app` 来创建项目模板。
+We create the project template with create-farrow-app.
 
-使用 `npm` 时运行下列代码：
-
-```shell
-$ npm init farrow-app
-```
-
-使用 `yarn` 时运行下列代码：
+Run the following code when using `npm`：
 
 ```shell
-$ yarn create farrow-app
+npm init farrow-app
 ```
 
-然后跟随命令行里给出的提示，输入项目名称`todo-app`，并选择脚手架 `farrow-vite-react`。
+Run the following code when using `yarn`:
 
-它将创建包含 `farrow`，`vite` 和 `react` 的全栈脚手架。
-
-依次执行下列命令，切换到项目文件夹，安装依赖，并启动。
-
+```shell
+yarn create farrow-app
 ```
+
+Then follow the prompts given on the command line, enter the project name `todo-app`, and select scaffolding `farrow-vite-react`.
+
+It will create a full-stack scaffold containing `farrow`, `vite` and `react`.
+
+Execute the following commands in sequence to switch to the project folder, install the dependencies, and start.
+
+```sh
 cd todo-app
 npm install
 npm run dev
@@ -39,19 +39,18 @@ npm run dev
 
 ## Project directory
 
-安装完成后，项目目录大致如下：
+After the installation is complete, the project directory is roughly as follows:
 
 ![project structure](/img/project-structure.png)
 
-其中：
+In the picture above:
 
-- `server` 目录为 `farrow` 服务端开发目录，在这里开发后端接口
+- The `server` directory is the `farrow` server-side development directory, where the back-end interface is developed.
 
-- `src` 目录为 `next.js` 页面源代码目录，在这里开发前端页面
+- The `src` directory is the source code directory of the `next.js` page, where the front-end pages are developed.
 
-- `farrow-config.js` 文件为 `farrow` 配置文件，可以配置 `server` 或 `api` 相关的编译行为
+- The `farrow-config.js` file is the farrow configuration file, which can configure `server` or `api`-related compilation behavior.
 
-- `vite.config.ts` 文件为 `vite` 配置文件，可以配置 `vite` 相关的行为
+- The `vite.config.ts` file is a `vite` configuration file that allows you to configure `vite` related behavior
 
-
-接下来，我们来解读一下项目里已内置的 `greet api` 接口的开发和使用代码。
+Next, let's unpack the code for developing and using the greet api interface that is already built into the project.

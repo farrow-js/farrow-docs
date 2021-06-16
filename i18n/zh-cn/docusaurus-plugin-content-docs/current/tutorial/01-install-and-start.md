@@ -4,7 +4,7 @@ title: 安装与创建项目
 
 ## 环境依赖
 
-`Farrow` 使用了当前最新的 `TypeScript` 和 `Node.js` 特性，在开始之前，请确保我们安装了正确的版本
+`Farrow` 使用了当前最新的 `TypeScript` 和 `Node.js` 特性，在开始之前，请确保我们安装了正确的版本。
 
 - `Node.js v14.0.0` 以上（通过 `node -v` 检查当前版本）
 - `TypeScript v4.3.0` 以上（如非在现有项目中引入 farrow，可随脚手架一起安装）
@@ -16,13 +16,13 @@ title: 安装与创建项目
 使用 `npm` 时运行下列代码：
 
 ```shell
-$ npm init farrow-app
+npm init farrow-app
 ```
 
 使用 `yarn` 时运行下列代码：
 
 ```shell
-$ yarn create farrow-app
+yarn create farrow-app
 ```
 
 然后跟随命令行里给出的提示，输入项目名称`todo-app`，并选择脚手架 `farrow-vite-react`。
@@ -31,7 +31,7 @@ $ yarn create farrow-app
 
 依次执行下列命令，切换到项目文件夹，安装依赖，并启动。
 
-```
+```sh
 cd todo-app
 npm install
 npm run dev
