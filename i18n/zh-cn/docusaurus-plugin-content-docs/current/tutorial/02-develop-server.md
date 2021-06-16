@@ -25,7 +25,7 @@ export class GreetInput extends ObjectType {
 }
 ```
 
-再通过 ObjectType 定义 greet api 的 output schema。此处采用了带 description 字段描述的结构，此时字段的类型需要配置在 [Type] 属性中。
+再通过 ObjectType 定义 greet api 的 output schema。此处采用了带 description 字段描述的结构，此时字段的类型需要配置在 `[Type]` 属性中。
 
 ```typescript
 export class GreetOutput extends ObjectType {
