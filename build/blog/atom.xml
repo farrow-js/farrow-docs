@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/Lucifier129/farrow-docs/blog</id>
     <title>Farrow Blog</title>
-    <updated>2021-06-15T07:35:31.041Z</updated>
+    <updated>2021-06-16T06:08:35.155Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/Lucifier129/farrow-docs/blog"/>
     <subtitle>Farrow Blog</subtitle>
@@ -10,7 +10,7 @@
     <entry>
         <title type="html"><![CDATA[总揽]]></title>
         <id>总揽</id>
-        <link href="https://github.com/Lucifier129/farrow-docs/farrow-docs/blog/introduction"/>
-        <updated>2021-06-15T07:35:31.041Z</updated>
+        <link href="https://github.com/Lucifier129/farrow-docs/farrow-docs/build/blog/introduction"/>
+        <updated>2021-06-16T06:08:35.155Z</updated>
     </entry>
 </feed>
