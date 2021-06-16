@@ -19,22 +19,21 @@ module.exports = {
       items: [
         {
           to: 'docs/',
-          label: '文档',
+          label: 'Docs',
           position: 'left',
         },
         {
           to: '/blog',
-          label: '日志',
-          position: 'left'
-        },
-        {
-          to: 'docs/case/',
-          label: '案例',
+          label: 'Blog',
           position: 'left'
         },
         {
           href: 'https://github.com/Lucifier129/farrow',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          type: 'localeDropdown',
           position: 'right',
         },
       ],
@@ -43,17 +42,33 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: '文档',
+          title: 'Docs',
           items: [
             {
-              label: '快速开始',
+              label: 'Introduction',
               to: 'docs/',
+            },
+            {
+              label: 'Quick Start',
+              to: 'docs/quick-start',
+            },
+            {
+              label: 'Tutorial',
+              to: 'docs/tutorial/01-install-and-start',
+            },
+            {
+              label: 'API',
+              to: 'docs/api',
             },
           ],
         },
         {
-          title: '社区',
+          title: 'Community',
           items: [
+            {
+              label: 'GitHub',
+              href: 'https://github.com/Lucifier129/farrow',
+            },
             {
               label: 'Stack Overflow',
               href: 'https://stackoverflow.com/questions/tagged/farrow',
@@ -65,16 +80,16 @@ module.exports = {
           ],
         },
         {
-          title: '更多',
+          title: 'More',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/Lucifier129/farrow',
+              label: 'Blog',
+              href: 'https://farrow-js.github.io/farrow-docs/build/blog',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Farrow team. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Farrow team.`,
     },
   },
   presets: [

@@ -6,33 +6,35 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
 
+import Translate, {translate} from '@docusaurus/Translate';
+
 const features = [
   {
-    title: "易于使用",
+    title: translate({ id: 'homepage.feature.ease.title', message: 'Easy to use' }),
     description: (
-      <>
-        Farrow 参考了 Node.js 里流行的后端框架如 Expressjs/Koajs
-        的中间件设计，并做了充分的类型优化。 熟悉 Expressjs/Koajs
-        的开发者，很容易上手 Farrow
-      </>
+      <Translate id="homepage.feature.ease.content">
+        Farrow takes reference from popular backend frameworks in Node.js such as Expressjs/Koajs
+        with full type optimization. Developers familiar with Expressjs/Koajs
+        developers, it is easy to get started with Farrow
+      </Translate>
     ),
   },
   {
-    title: "功能强大",
+    title: translate({ id: 'homepage.feature.powerful.title', message: 'Powerful feature' }),
     description: (
-      <>
-        Farrow 提供了超前的 BFF 2.0
-        功能，不仅为前端聚合好了数据，连带类型和客户端代码都能为前端自动生成。极大地提高了前后端数据同步和类型同步的便利。
-      </>
+      <Translate id="homepage.feature.powerful.content">
+        Farrow provides the advanced BFF 2.0
+        It not only aggregates the data for the front-end, but also generates the type and client-side code automatically for the front-end. This greatly improves the convenience of data synchronization and type synchronization for the front-end and back-end.
+      </Translate>
     ),
   },
   {
-    title: "灵活自主",
+    title: translate({ id: 'homepage.feature.flexibility.title', message: 'Flexibility and autonomy' }),
     description: (
-      <>
-        Farrow 提供了一系列可选的 packages
-        以按需引入，既能胜任简单需求，也能撑起复杂项目。并提供多个脚手架模板，供开发者自由选择。
-      </>
+      <Translate id="homepage.feature.flexibility.content">
+      Farrow offers a range of optional packages
+        to be introduced on-demand, capable of handling simple requirements as well as holding up complex projects. Multiple scaffolding templates are also available for developers to choose from.
+      </Translate>
     ),
   },
 ];
@@ -72,7 +74,9 @@ export default function Home() {
               )}
               to={useBaseUrl("docs/")}
             >
-              快速开始
+              <Translate id="home.button.quick-start">
+                Quick Start
+              </Translate>
             </Link>
           </div>
         </div>

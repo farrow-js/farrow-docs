@@ -4,7 +4,7 @@ module.exports = {
     'quick-start',
     {
       type: 'category',
-      label: '实战教程',
+      label: 'Tutorial',
       items: [
         'tutorial/01-install-and-start',
         'tutorial/02-develop-server',
@@ -35,9 +35,6 @@ module.exports = {
         'api/15-farrow-deno-api',
       ],
     }
-  ],
-  case: [
-    'case/introduction'
   ],
   blog: [
     'introduction'
