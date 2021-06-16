@@ -23,11 +23,6 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'docs/api/',
-          label: 'API',
-          position: 'left'
-        },
-        {
           to: '/blog',
           label: '日志',
           position: 'left'
@@ -106,4 +101,8 @@ module.exports = {
       },
     ],
   ],
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'zh-cn'],
+  }
 };

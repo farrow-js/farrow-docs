@@ -13,13 +13,11 @@ module.exports = {
         'tutorial/05-develop-todo-app'
       ],
     },
-  ],
-  api: [
-    'api/introduction',
     {
       type: 'category',
       label: 'API',
       items: [
+        'api/introduction',
         'api/01-create-farrow-app',
         'api/02-farrow',
         'api/03-farrow-http',
@@ -36,7 +34,7 @@ module.exports = {
         'api/14-farrow-next-server',
         'api/15-farrow-deno-api',
       ],
-    },
+    }
   ],
   case: [
     'case/introduction'
