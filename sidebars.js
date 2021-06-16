@@ -9,7 +9,8 @@ module.exports = {
         'tutorial/01-install-and-start',
         'tutorial/02-develop-server',
         'tutorial/03-develop-front-end',
-        'tutorial/04-develop-todo-service'
+        'tutorial/04-develop-todo-service',
+        'tutorial/05-develop-todo-app'
       ],
     },
   ],

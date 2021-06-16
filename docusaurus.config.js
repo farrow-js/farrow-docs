@@ -3,11 +3,11 @@ module.exports = {
   title: 'Farrow',
   tagline: '类型安全的渐近式 TypeScript 全栈框架',
   url: 'https://github.com/Lucifier129/farrow-docs',
-  baseUrl: '/farrow-docs/',
+  baseUrl: '/farrow-docs/build/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Lucifier129',
+  organizationName: 'farrow-js',
   projectName: 'farrow', // Usually your repo name.
   themeConfig: {
     navbar: {
