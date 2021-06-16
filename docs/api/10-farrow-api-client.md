@@ -16,7 +16,7 @@ yarn add farrow-api-client
 
 ## Usage
 
-Using [farrow](../farrow/README.md#example) to codegen the `api-client`, and config apiPipeline if needed.
+Using [farrow](./02-farrow.md) to codegen the `api-client`, and config apiPipeline if needed.
 
 Simply, we can `import` the file via codegen directly without modification.
 

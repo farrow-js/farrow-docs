@@ -1,6 +1,7 @@
 module.exports = {
   docs: [
     'introduction',
+    'quick-start',
     {
       type: 'category',
       label: '实战教程',

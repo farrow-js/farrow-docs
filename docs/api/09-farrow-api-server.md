@@ -18,7 +18,7 @@ yarn add farrow-api-server
 
 ## Usage
 
-[farrow-api](../farrow-api/README.md) just defining API, it's not directly bind to a server.
+[farrow-api](./08-farrow-api.md) just defining API, it's not directly bind to a server.
 
 `farrow-api-server` can convert an `api-entries` to a router of `farrow-http`.
 
@@ -85,7 +85,7 @@ http.listen(3000, () => {
 })
 ```
 
-In client-side, for consuming data we need to use [farrow-api-client](../farrow-api-client/README.md).
+In client-side, for consuming data we need to use [farrow-api-client](./10-farrow-api-client.md).
 
 ```typescript
 // import file codegened by farrow
