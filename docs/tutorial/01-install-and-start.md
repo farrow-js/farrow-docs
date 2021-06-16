@@ -1,5 +1,5 @@
 ---
-title: Install and creating project
+title: Install and Creating project
 ---
 
 ## Environment config
