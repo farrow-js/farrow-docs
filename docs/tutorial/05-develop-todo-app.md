@@ -1,5 +1,5 @@
 ---
-title: 开发 todo app
+title: Develop Todo App
 ---
 
 ### 配置 farrow.config.js

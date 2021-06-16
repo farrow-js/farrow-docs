@@ -1,15 +1,15 @@
 ---
-title: 安装与创建项目
+title: Install and creating project
 ---
 
-## 环境依赖
+## Environment config
 
 `Farrow` 使用了当前最新的 `TypeScript` 和 `Node.js` 特性，在开始之前，请确保我们安装了正确的版本
 
 - `Node.js v14.0.0` 以上（通过 `node -v` 检查当前版本）
 - `TypeScript v4.3.0` 以上（如非在现有项目中引入 farrow，可随脚手架一起安装）
 
-## 创建项目
+## Creating project
 
 我们通过 `create-farrow-app` 来创建项目模板。
 
@@ -37,7 +37,7 @@ npm install
 npm run dev
 ```
 
-## 项目目录
+## Project directory
 
 安装完成后，项目目录大致如下：
 

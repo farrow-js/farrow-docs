@@ -1,5 +1,5 @@
 ---
-title: 总揽
+title: General
 slug: /api
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 前端开发
+title: Develop Front End
 ---
 
 在 `farrow-vite-react` 项目模板中，已经包含了简单的示例代码，现在让我们来解读一下前端部分。

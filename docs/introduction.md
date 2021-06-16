@@ -1,30 +1,30 @@
 ---
-title: 介绍
+title: Introduction
 slug: /
 ---
 
-## 为什么要开发 Farrow？
+## Why we need Farrow？
 
-在全面拥抱 `TypeScript` 之前，我们团队一直使用的后端框架是 `Express.js` 和 `Koa.js`，在全面拥抱 `TypeScript` 之后，我们团队的需求维度增加了——类型安全/类型友好。
+Before fully embracing `TypeScript`, the backend frameworks our team had been using were `Express.js` and `Koa.js`. After fully embracing `TypeScript`, our team's requirement dimension increased - type-safety/type-friendliness.
 
-我们发现，面向 `JavaScript` 设计的后端框架，并不能简单地通过添加 `*.d.ts` 而得到充分的类型安全保障。
+We found that a `JavaScript`-oriented backend framework could not be fully type-safe simply by adding `*.d.ts`.
 
-其它基于 `Express.js` 或 `Koa.js` 封装的上层 `TypeScript` 后端框架，有时还是难以规避底层框架的类型问题。
+Other upper-level `TypeScript` backend frameworks that are wrapped in `Express.js` or `Koa.js` still sometimes struggle to circumvent the type issues of the underlying framework.
 
-我们认为，或许需要用面向 `TypeScript` 的设计思路，实现一个能更类型安全的新后端框架。
+We thought it might be useful to implement a new backend framework that is more type-safe, using a `TypeScript`-oriented design approach.
 
-这就是 `Farrow` 诞生的初衷。希望你也能喜欢我们的设计思路。
+That's how Farrow was born. We hope you like our design approach as well.
 
-## Farrow 的设计理念
+## Farrow's design philosophy
 
-- `类型安全`：尽可能在所有 input/output 或 `JSON.parse` 解析数据的地方，提供 `runtime-validation`。保证服务端接受的请求参数一定满足类型要求，无冗余，也无残缺；保证客户端 fetch 到的数据满足指定类型，不再需要开发者手动 `as MyData` 假装数据满足我们期望的类型。
+- Type-safe: provide `runtime-validation` in all input/output or `JSON.parse` parsing data where possible; ensure that the request parameters accepted by the server must meet the type requirements without redundancy or fragmentation; ensure that the data fetched by the client meets the specified type and no longer requires the developer to manually `as MyData` pretends that the data is of the type we expect.
 
-- `函数式`: 我们在所有可能的地方，优先使用函数式编程的 `immutable` 和 `pure` 理念，优先使用朴素的 `function`。
+Functional: We prioritize the `immutable` and `pure` philosophy of functional programming wherever possible, preferring plain `functions`.
 
-- `端到端类型同步`：我们致力于完善前后端之间类型同步繁琐的困扰，追求尽可能自动化地在前端复用服务端定义的契约类型，并通过 `codegen` 代码生成的方式，为前端提供数据类型以及接口调用的代码。在搭配使用 `Farrow-API` 的项目中，前端项目不再从 0 开始，而是从继承后端类型定义开始。
+- End-to-end type synchronization: We work to improve the tedious type synchronization nuisance between the front and back ends, pursuing to automate as much as possible the reuse of server-defined contract types on the front end, and providing the code for data types and interface calls to the front end by way of `codegen` code generation. In projects paired with `Farrow-API`, front-end projects no longer start from 0, but from inheriting back-end type definitions.
 
-- `渐进式`：`Farrow` 官方维护了一系列从前端开发到后端开发的相关 `package`，可以根据项目需求按需引入或者搭配不同的主流技术栈或工具链（如 `react`, `vite`, `next.js` 等）
+- Progressive: `Farrow` officially maintains a series of `packages` from front-end development to back-end development, which can be introduced on demand or with different mainstream technology stacks or tool chains (e.g. `react`, `vite`, `next.js`, etc.) according to project requirements.
 
-## 教程相关
+## About tutorial
 
-本教程将引领大家搭建和实现一个端到端类型安全的全栈开发项目。
+This tutorial will lead you to build and implement an end-to-end type-safe full-stack development project.

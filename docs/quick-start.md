@@ -1,5 +1,5 @@
 ---
-title: 快速开始
+title: Quick Start
 ---
 
 - [How to install](#how-to-install)
