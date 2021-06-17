@@ -64,11 +64,11 @@ export const service = ApiService({
 });
 ```
 
-再来看看`server/api/index.ts`文件。
+Then look at the `server/api/index.ts` file。
 
-它导入了 `farrow-http` 的 `Router`，导入了前面定义的 `greet service`，然后创建 `Router`，将 `greet service` 挂在到路径 `/api/greet` 上。
+It imports the `farrow-http` `Router`, imports the `greet service` defined earlier, then creates the `Router` and hooks the `greet service` to the path `/api/greet`.
 
-在 `server/api/index.ts` 模块中，我们可以按需把各个 `api service` 都整合起来，对外部暴露一个独立的 `router` 对象即可。
+In the `server/api/index.ts` module, we can compose each `api service` as needed and expose a separate `router` object to the outside.
 
 ```typescript
 // server/api/index.ts
@@ -81,7 +81,7 @@ export const services = Router();
 services.route('/api/greet').use(GreetService);
 ```
 
-然后在 `server/index.ts` 中，创建 `http` 并挂在 `router` 上去，然后 `listen(port)` 启动一个 `http server`。
+And then, in `server/index.ts`, create the `http` and mount it on the `router`, then `listen(port)` to start an `http server`.
 
 ```typescript
 // server/index.ts
@@ -112,6 +112,6 @@ http.listen(3003, () => {
 });
 ```
 
-在 `server/index.ts` 中，我们启用了 `services` 和 `vite`，分别处理 `api` 和 `page`。
+In `server/index.ts`, we have enabled `services` and `vite`, which handle `api` and `page` respectively.
 
-接下来，我们来看看前端开发的情况，执行命令 `npm run dev` 可以启动应用。
+Next, let's take a look at the front-end development. Executing the command `npm run dev` will start the application.
