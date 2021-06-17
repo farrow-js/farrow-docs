@@ -8,8 +8,8 @@
     <subtitle>Farrow Blog</subtitle>
     <icon>https://github.com/Lucifier129/farrow-docs/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[总揽]]></title>
-        <id>总揽</id>
+        <title type="html"><![CDATA[General]]></title>
+        <id>General</id>
         <link href="https://github.com/Lucifier129/farrow-docs/farrow-docs/build/blog/introduction"/>
         <updated>2021-06-16T15:12:34.039Z</updated>
     </entry>

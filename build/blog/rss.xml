@@ -8,9 +8,9 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[总揽]]></title>
+            <title><![CDATA[General]]></title>
             <link>https://github.com/Lucifier129/farrow-docs/farrow-docs/build/blog/introduction</link>
-            <guid>总揽</guid>
+            <guid>General</guid>
             <pubDate>Wed, 16 Jun 2021 15:12:34 GMT</pubDate>
         </item>
     </channel>
