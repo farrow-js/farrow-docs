@@ -1,10 +1,10 @@
 ---
-title: 开发 todo app
+title: Develop Todo App
 ---
 
-### 配置 farrow.config.js
+### Create farrow.config.js
 
-首先，在 `farrow.config.js` 配置文件里，配置一下 `farrow-api` 的生成规则。
+First, in the `farrow.config.js` configuration file, configure the rules for generating `farrow-api`.
 
 ```js
 const { createFarrowConfig } = require('farrow');
@@ -23,9 +23,9 @@ module.exports = createFarrowConfig({
 });
 ```
 
-将接口 `http://localhost:3003/api/todo`，通过 `codegen` 生成到本地 `${__dirname}/src/api/todo.ts`。
+Generate the interface `http://localhost:3003/api/todo` to the local `${__dirname}/src/api/todo.ts` via codegen.
 
-运行 `farrow dev` 后，将在 `dist` 配置所指定的目录，新增文件。
+After running `farrow dev`, new files will be added in the directory specified by the `dist` configuration.
 
 ```ts
 /**
@@ -219,11 +219,11 @@ export const api = {
 };
 ```
 
-如上，我们可以看到接口的类型定义，以及 `api client` 对象的调用函数，都生成出来了。
+As above, we can see that the type definition of the interface, as well as the call function for the `api client` object, is generated.
 
-### 引用生成的模块
+### Import the generated modules
 
-然后，我们在 `src/App.tsx` 组件里，可以直接 `import` 生成的模块里包含的类型和对象。
+Then, in the `src/App.tsx` component, we can directly `import` the types and objects contained in the generated module.
 
 ```ts
 import React, {
@@ -236,9 +236,9 @@ import React, {
 import { api as TodoApi, Todo } from './api/todo';
 ```
 
-### 实现 TodoItem 组件
+### Implement TodoItem component
 
-再添加组件实现，先定义 `TodoItem` 组件，定义时我们直接用到了生成的 `Todo` 类型。
+Then we add the component implementation, defining the `TodoItem` component first, which uses the generated `Todo` type directly.
 
 ```tsx
 type TodoItemProps = {
@@ -306,9 +306,9 @@ function TodoItem(props: TodoItemProps) {
 }
 ```
 
-### 实现 App 组件
+### Implement App component
 
-然后定义 `App` 组件。
+Then define the `App` component.
 
 ```tsx
 function App() {
@@ -424,7 +424,7 @@ function App() {
 export default App;
 ```
 
-在 `handleAddTodo` 函数中，我们调用了 `api.addTodo` 接口，并处理了它返回的 `Tagged Unions` 类型。
+In the `handleAddTodo` function, we call the `api.addTodo` interface and process the `Tagged Unions` type it returns.
 
 ```tsx
 const handleAdd = async () => {
@@ -442,11 +442,11 @@ const handleAdd = async () => {
 };
 ```
 
-在 `handleRemove` 等其它接口中也是一样的模式。
+The pattern is the same in other interfaces such as `handleRemove`.
 
-总的来说，`farrow-api` 的最佳实践就是：
+In summary, the best practice for `farrow-api` is to
 
-- 在服务端，使用 `Tagged Unions` 编码接口的 `input/output`
-- 在客户端，使用 `result.type` 区分不同的 `case` 消费数据。
+- On the server side, use `Tagged Unions` to encode the `input/output` of the interface
+- On the client side, use `result.type` to distinguish between different `cases` of data consumption.
 
-以上，我们完成了一个简单的 `Todo App`。完成代码，可访问仓库 [farrow-js/farrow-vite-todo-app](https://github.com/farrow-js/farrow-vite-todo-app)
+The finished code can be found in the repository [farrow-js/farrow-vite-todo-app](https://github.com/farrow-js/farrow-vite-todo-app).

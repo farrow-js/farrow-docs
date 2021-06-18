@@ -1,14 +1,14 @@
 ---
-title: 服务端开发
+title: Develop Server
 ---
 
-在 `farrow-vite-react` 项目模板中，已经包含了简单的示例代码，现在让我们来解读一下服务端部分。
+Simple sample code has been included in the `farrow-vite-react` project template, now let's unpack the server-side part.
 
-首先来看 `server/api/greet.ts` 文件
+Look at the server/api/greet.ts file first
 
-- 引入 farrow-api 去定义一个个 api
-- 引入 farrow-api-server 去包含一组 api 为一个 service router
-- 引入 farrow-schema 去定义 api 的 schema 结构
+- import farrow-api to define an api
+- import farrow-api-server to contain a set of api for a service router
+- import farrow-schema to define the schema structure of api
 
 ```typescript
 // server/api.greet.ts
@@ -17,7 +17,7 @@ import { ApiService } from 'farrow-api-server';
 import { ObjectType, Type } from 'farrow-schema';
 ```
 
-然后，通过 ObjectType 定义 greet api 的 input schema。此处演示了最简单的方式，不包含字段的描述
+Then, define the input schema of the greet api by ObjectType. the simplest way is demonstrated here, without the description of the fields
 
 ```typescript
 export class GreetInput extends ObjectType {
@@ -25,7 +25,7 @@ export class GreetInput extends ObjectType {
 }
 ```
 
-再通过 ObjectType 定义 greet api 的 output schema。此处采用了带 description 字段描述的结构，此时字段的类型需要配置在 [Type] 属性中。
+And then define the output schema of the greet api by ObjectType. Here a structure with a description field is used, and the type of the field needs to be configured at the `[Type]` property.
 
 ```typescript
 export class GreetOutput extends ObjectType {
@@ -36,7 +36,7 @@ export class GreetOutput extends ObjectType {
 }
 ```
 
-用 input schema 和 output schema 定义一个 api 函数，`Api({ description, input, output }, fn)` ，在 `fn` 函数中编写这个 api 的实现。
+Define an api function with input schema and output schema, `Api({ description, input, output }, fn)` ，implement this api in function `fn`.
 
 ```typescript
 export const greet = Api(
@@ -52,9 +52,9 @@ export const greet = Api(
 );
 ```
 
-`greet` 是一个普通的函数，还未跟任何 `server` 关联起来，我们可以通过 `farrow-api-server` 模块的 `ApiService` 函数，将多个 api 打包成 `entries` 对象。
+`greet` is a normal function that is not yet associated with any `server`. We can package multiple `api`'s into `entries` using the `ApiService` function of the `farrow-api-server` module.
 
-`ApiServer(options)` 返回一个 `farrow-http` 的 `router` 对象，可以挂载到指定的 path 上。
+`ApiServer(options)` return a `router` object of `farrow-http` which can be mount on the specified route.
 
 ```typescript
 export const service = ApiService({
@@ -64,11 +64,11 @@ export const service = ApiService({
 });
 ```
 
-再来看看`server/api/index.ts`文件。
+Then look at the `server/api/index.ts` file。
 
-它导入了 `farrow-http` 的 `Router`，导入了前面定义的 `greet service`，然后创建 `Router`，将 `greet service` 挂在到路径 `/api/greet` 上。
+It imports the `farrow-http` `Router`, imports the `greet service` defined earlier, then creates the `Router` and hooks the `greet service` to the path `/api/greet`.
 
-在 `server/api/index.ts` 模块中，我们可以按需把各个 `api service` 都整合起来，对外部暴露一个独立的 `router` 对象即可。
+In the `server/api/index.ts` module, we can compose each `api service` as needed and expose a separate `router` object to the outside.
 
 ```typescript
 // server/api/index.ts
@@ -81,7 +81,7 @@ export const services = Router();
 services.route('/api/greet').use(GreetService);
 ```
 
-然后在 `server/index.ts` 中，创建 `http` 并挂在 `router` 上去，然后 `listen(port)` 启动一个 `http server`。
+And then, in `server/index.ts`, create the `http` and mount it on the `router`, then `listen(port)` to start an `http server`.
 
 ```typescript
 // server/index.ts
@@ -112,6 +112,6 @@ http.listen(3003, () => {
 });
 ```
 
-在 `server/index.ts` 中，我们启用了 `services` 和 `vite`，分别处理 `api` 和 `page`。
+In `server/index.ts`, we have enabled `services` and `vite`, which handle `api` and `page` respectively.
 
-接下来，我们来看看前端开发的情况，执行命令 `npm run dev` 可以启动应用。
+Next, let's take a look at the front-end development. Executing the command `npm run dev` will start the application.
