@@ -15,6 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'farrow-js', // Usually your GitHub org/user name.
   projectName: 'farrow', // Usually your repo name.
+  deploymentBranch: "release",
 
   i18n: {
     defaultLocale: 'en',
