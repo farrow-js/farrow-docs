@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Farrow Blog</title>
+        <link>https://farrow-js.github.io/zh-cn/blog</link>
+        <description>Farrow Blog</description>
+        <lastBuildDate>Thu, 05 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Exploring the Type-Safe Node.js Web Framework]]></title>
+            <link>https://farrow-js.github.io/zh-cn/blog/exploring-the-type-safe-node-js-web-framework</link>
+            <guid>exploring-the-type-safe-node-js-web-framework</guid>
+            <pubDate>Thu, 05 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[WIP]]></description>
+            <content:encoded><![CDATA[<p>WIP</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Farrow first look: with Express/Koa/GraphQL and other frameworks to compare]]></title>
+            <link>https://farrow-js.github.io/zh-cn/blog/farrow-first-look-with-express-koa-graphql-and-other-frameworks-to-compare</link>
+            <guid>farrow-first-look-with-express-koa-graphql-and-other-frameworks-to-compare</guid>
+            <pubDate>Tue, 23 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[WIP]]></description>
+            <content:encoded><![CDATA[<p>WIP</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Farrow: A type-friendly, functional-style Node.js web framework]]></title>
+            <link>https://farrow-js.github.io/zh-cn/blog/introducing-farrow-a-type-friendly-functional-style-node-js-web-framework</link>
+            <guid>introducing-farrow-a-type-friendly-functional-style-node-js-web-framework</guid>
+            <pubDate>Tue, 05 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[WIP]]></description>
+            <content:encoded><![CDATA[<p>WIP</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
