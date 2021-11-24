@@ -1,5 +1,5 @@
 ---
-slug: /api
+slug: /design
 title: Introduction
 authors: [tqma113]
 tags: []

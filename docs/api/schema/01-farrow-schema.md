@@ -1,6 +1,5 @@
 ---
-slug: /api
-title: Introduction
+title: farrow-schema
 authors: [tqma113]
 tags: []
 sidebar_position: 0

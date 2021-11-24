@@ -1,5 +1,5 @@
 ---
-slug: /api
+slug: /tutorial
 title: Introduction
 authors: [tqma113]
 tags: []
