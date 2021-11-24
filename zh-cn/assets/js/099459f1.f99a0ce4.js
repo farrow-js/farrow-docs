@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[5275],{4707:function(e){e.exports=JSON.parse('{"allTagsPath":"/zh-cn/blog/tags","slug":"/zh-cn/blog/tags/framework","name":"Framework","count":3,"permalink":"/zh-cn/blog/tags/framework"}')}}]);

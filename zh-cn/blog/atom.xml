@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://farrow-js.github.io/zh-cn/blog</id>
+    <id>https://farrow-js.github.io/farrow-docs/zh-cn/blog</id>
     <title>Farrow Blog</title>
     <updated>2021-08-05T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://farrow-js.github.io/zh-cn/blog"/>
+    <link rel="alternate" href="https://farrow-js.github.io/farrow-docs/zh-cn/blog"/>
     <subtitle>Farrow Blog</subtitle>
-    <icon>https://farrow-js.github.io/zh-cn/img/favicon.ico</icon>
+    <icon>https://farrow-js.github.io/farrow-docs/zh-cn/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Exploring the Type-Safe Node.js Web Framework]]></title>
         <id>exploring-the-type-safe-node-js-web-framework</id>
-        <link href="https://farrow-js.github.io/zh-cn/blog/exploring-the-type-safe-node-js-web-framework"/>
+        <link href="https://farrow-js.github.io/farrow-docs/zh-cn/blog/exploring-the-type-safe-node-js-web-framework"/>
         <updated>2021-08-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[WIP]]></summary>
         <content type="html"><![CDATA[<p>WIP</p>]]></content>
@@ -22,7 +22,7 @@
     <entry>
         <title type="html"><![CDATA[Farrow first look: with Express/Koa/GraphQL and other frameworks to compare]]></title>
         <id>farrow-first-look-with-express-koa-graphql-and-other-frameworks-to-compare</id>
-        <link href="https://farrow-js.github.io/zh-cn/blog/farrow-first-look-with-express-koa-graphql-and-other-frameworks-to-compare"/>
+        <link href="https://farrow-js.github.io/farrow-docs/zh-cn/blog/farrow-first-look-with-express-koa-graphql-and-other-frameworks-to-compare"/>
         <updated>2021-03-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[WIP]]></summary>
         <content type="html"><![CDATA[<p>WIP</p>]]></content>
@@ -34,7 +34,7 @@
     <entry>
         <title type="html"><![CDATA[Introducing Farrow: A type-friendly, functional-style Node.js web framework]]></title>
         <id>introducing-farrow-a-type-friendly-functional-style-node-js-web-framework</id>
-        <link href="https://farrow-js.github.io/zh-cn/blog/introducing-farrow-a-type-friendly-functional-style-node-js-web-framework"/>
+        <link href="https://farrow-js.github.io/farrow-docs/zh-cn/blog/introducing-farrow-a-type-friendly-functional-style-node-js-web-framework"/>
         <updated>2021-01-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[WIP]]></summary>
         <content type="html"><![CDATA[<p>WIP</p>]]></content>

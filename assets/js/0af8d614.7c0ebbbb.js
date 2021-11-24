@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[172],{124:function(a){a.exports=JSON.parse('{"allTagsPath":"/farrow-docs/blog/tags","slug":"/farrow-docs/blog/tags/framework","name":"Framework","count":3,"permalink":"/farrow-docs/blog/tags/framework"}')}}]);
