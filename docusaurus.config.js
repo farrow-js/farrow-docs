@@ -16,6 +16,11 @@ const config = {
   organizationName: 'farrow-js', // Usually your GitHub org/user name.
   projectName: 'farrow', // Usually your repo name.
 
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'zh-cn'],
+  },
+
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -78,8 +83,20 @@ const config = {
             title: 'Docs',
             items: [
               {
+                label: 'Quick Start',
+                to: '/docs/quick-start',
+              },
+              {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/tutorial',
+              },
+              {
+                label: 'Guide',
+                to: '/docs/guide',
+              },
+              {
+                label: 'API',
+                to: '/docs/api',
               },
             ],
           },
