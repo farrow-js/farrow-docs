@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Farrow',
   tagline: 'Type-safe asymptotic TypeScript full-stack framework',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://farrow-js.github.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'farrow-js', // Usually your GitHub org/user name.
-  projectName: 'farrow', // Usually your repo name.
+  projectName: 'farrow-docs', // Usually your repo name.
   deploymentBranch: "release",
 
   i18n: {
