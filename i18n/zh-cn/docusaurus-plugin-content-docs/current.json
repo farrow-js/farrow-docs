@@ -1,14 +1,42 @@
 {
   "version.label": {
-    "message": "下一节",
+    "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.docs.category.Tutorial": {
-    "message": "实战教程",
-    "description": "The label for category Tutorial in sidebar docs"
+  "sidebar.guideSidebar.category.HTTP Server": {
+    "message": "HTTP Server",
+    "description": "The label for category HTTP Server in sidebar guideSidebar"
   },
-  "sidebar.docs.category.API": {
-    "message": "API",
-    "description": "The label for category API in sidebar docs"
+  "sidebar.guideSidebar.category.Base": {
+    "message": "基础",
+    "description": "The label for category Base in sidebar guideSidebar"
+  },
+  "sidebar.guideSidebar.category.RPC Server": {
+    "message": "RPC Server",
+    "description": "The label for category RPC Server in sidebar guideSidebar"
+  },
+  "sidebar.guideSidebar.category.Work at Server and Client": {
+    "message": "结合 Server 和 Client 使用",
+    "description": "The label for category Work at Server and Client in sidebar guideSidebar"
+  },
+  "sidebar.guideSidebar.category.Middleware and Pipeline": {
+    "message": "中间件和 Pipeline",
+    "description": "The label for category Middleware and Pipeline in sidebar guideSidebar"
+  },
+  "sidebar.guideSidebar.category.Schema": {
+    "message": "Schema",
+    "description": "The label for category Schema in sidebar guideSidebar"
+  },
+  "sidebar.apiSidebar.category.Schema": {
+    "message": "Schema",
+    "description": "The label for category Schema in sidebar apiSidebar"
+  },
+  "sidebar.apiSidebar.category.Pipeline": {
+    "message": "Pipeline",
+    "description": "The label for category Pipeline in sidebar apiSidebar"
+  },
+  "sidebar.apiSidebar.category.Framework": {
+    "message": "框架",
+    "description": "The label for category Framework in sidebar apiSidebar"
   }
 }

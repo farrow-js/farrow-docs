@@ -11,25 +11,21 @@
     "message": "更多",
     "description": "The title of the footer links column with title=More in the footer"
   },
-  "link.item.label.Introduction": {
-    "message": "总揽",
-    "description": "The label of footer link with label=Introduction linking to docs/"
+  "link.item.label.Tutorial": {
+    "message": "教程",
+    "description": "The label of footer link with label=Tutorial linking to /docs/intro"
   },
   "link.item.label.Quick Start": {
     "message": "快速开始",
-    "description": "The label of footer link with label=Quick Start linking to docs/quick-start"
+    "description": "The label of footer link with label=Tutorial linking to /docs/intro"
   },
-  "link.item.label.Tutorial": {
-    "message": "实战教程",
-    "description": "The label of footer link with label=Tutorial linking to docs/tutorial/01-install-and-start"
+  "link.item.label.Guide": {
+    "message": "指导",
+    "description": "The label of footer link with label=Tutorial linking to /docs/intro"
   },
   "link.item.label.API": {
     "message": "API",
-    "description": "The label of footer link with label=API linking to docs/api"
-  },
-  "link.item.label.GitHub": {
-    "message": "GitHub",
-    "description": "The label of footer link with label=GitHub linking to https://github.com/Lucifier129/farrow"
+    "description": "The label of footer link with label=Tutorial linking to /docs/intro"
   },
   "link.item.label.Stack Overflow": {
     "message": "Stack Overflow",
@@ -39,12 +35,16 @@
     "message": "Twitter",
     "description": "The label of footer link with label=Twitter linking to https://twitter.com/guyingjie129"
   },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/Lucifier129/farrow"
+  },
   "link.item.label.Blog": {
     "message": "日志",
     "description": "The label of footer link with label=Blog linking to https://farrow-js.github.io/farrow-docs/build/blog"
   },
   "copyright": {
-    "message": "Copyright © 2021 Farrow team.",
+    "message": "Copyright © 2021 Farrow Team.",
     "description": "The footer copyright"
   }
 }
