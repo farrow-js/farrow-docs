@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Farrow Blog</title>
+        <link>https://github.com/Lucifier129/farrow-docs/blog</link>
+        <description>Farrow Blog</description>
+        <lastBuildDate>Fri, 24 Sep 2021 11:05:45 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[总揽]]></title>
+            <link>https://github.com/Lucifier129/farrow-docs/farrow-docs/build/zh-cn/blog/introduction</link>
+            <guid>总揽</guid>
+            <pubDate>Fri, 24 Sep 2021 11:05:45 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

@@ -3,25 +3,9 @@
     "message": "Farrow",
     "description": "The title in the navbar"
   },
-  "item.label.Quick Start": {
-    "message": "快速开始",
-    "description": "Navbar item with label Quick Start"
-  },
-  "item.label.Tutorial": {
-    "message": "教程",
-    "description": "Navbar item with label Tutorial"
-  },
-  "item.label.Guide": {
-    "message": "指导",
-    "description": "Navbar item with label Guide"
-  },
-  "item.label.API": {
-    "message": "API",
-    "description": "Navbar item with label API"
-  },
-  "item.label.Design Philosophy": {
-    "message": "设计理念",
-    "description": "Navbar item with label Design Philosophy"
+  "item.label.Docs": {
+    "message": "文档",
+    "description": "Navbar item with label Docs"
   },
   "item.label.Blog": {
     "message": "日志",
